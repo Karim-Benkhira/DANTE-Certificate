@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANTE Certificate</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Background styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d0d0d;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        /* Certificate container */
+        .certificate-container {
+            max-width: 800px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 255, 128, 0.3);
+            background: linear-gradient(145deg, #111, #222);
+            border: 1px solid #0aff99;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #0aff99;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #dddddd;
+            margin: 10px 0 20px;
+        }
+
+        /* PDF iframe styling */
+        .pdf-frame {
+            width: 100%;
+            height: 600px;
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        /* Button styling */
+        .download-btn {
+            padding: 10px 20px;
+            background-color: #0aff99;
+            color: #0d0d0d;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .download-btn:hover {
+            background-color: #00cc7a;
+            color: #ffffff;
+        }
+
+        /* Experience section */
+        .experience {
+            max-width: 800px;
+            padding: 20px;
+            margin: 30px auto;
+            background-color: #0d0d0d;
+            border: 1px solid #0aff99;
+            box-shadow: 0 0 15px rgba(0, 255, 128, 0.2);
+            border-radius: 8px;
+            text-align: left;
+        }
+        
+        .experience h2 {
+            font-size: 1.8rem;
+            color: #0aff99;
+            margin-bottom: 15px;
+        }
+
+        .experience p {
+            font-size: 1rem;
+            color: #dddddd;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        /* Cyber-style footer */
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+        .footer a {
+            color: #0aff99;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            color: #00cc7a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="certificate-container">
+        <h1>DANTE Certificate</h1>
+        <p>This certificate is awarded to demonstrate your skills in cybersecurity on Hack The Box.</p>
+        
+        <!-- PDF Embed -->
+        <iframe src="DANTE_Certificate.pdf" class="pdf-frame"></iframe>
+        
+        <!-- Download Button -->
+        <a href="DANTE_Certificate.pdf" download class="download-btn">Download PDF</a>
+    </div>
+
+    <!-- Experience Section -->
+    <div class="experience">
+        <h2>Just completed the Dante Pro Lab on Hack The Box!</h2>
+        <p>I'm excited to share that I've successfully finished the Dante Pro Lab on Hack The Box! This journey was both challenging and rewarding, filled with numerous opportunities to grow and learn.</p>
+        <p>Throughout the lab, I tackled diverse scenarios that required me to think critically and apply innovative solutions. From privilege escalation to network enumeration, every challenge helped me sharpen my cybersecurity skills and deepen my technical knowledge.</p>
+        <p>The experience was incredibly enriching, allowing me to explore advanced topics such as exploit development, lateral movement, and web application attacks. These challenges not only tested my abilities but also expanded my understanding of cybersecurity, giving me new tools to handle complex situations.</p>
+        <p>I'm excited to bring this knowledge into my future projects and continue my journey in the cybersecurity world!</p>
+    </div>
+
+    <div class="footer">
+        <p>Verify on <a href="https://www.hackthebox.com/">Hack The Box</a> | © 2024 DANTE Certification</p>
+    </div>
+
+</body>
+</html>
